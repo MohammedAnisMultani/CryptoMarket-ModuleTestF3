@@ -13,7 +13,7 @@ let output = document.getElementById('output')
 
 // _____________________________________________________________________________________________
 
-// METHOD - 1
+// // METHOD - 1
 
 let API = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=10&page=1&sparkline=false'
 
@@ -155,7 +155,7 @@ mktSort.addEventListener("click",()=>{
 // SearchFiltering
 
 
-btn.addEventListener("click",()=>{
+searchBar.addEventListener("input",()=>{
     async function fetching(API){
         //Using async function
         try{
@@ -540,18 +540,19 @@ function searchFilter(data){
 // display(dataArray)
 
 
-// _____________________
+// // _____________________
 
-// SearchFiltering
+// // SearchFiltering
 
 
-// btn.addEventListener("click",()=>{
+// searchBar.addEventListener("input",()=>{
 //     searchFilter(dataArray)
 // })
 
 // function searchFilter(data){
+//     // output.innerHTML = ""
 //     let searchedData = searchBar.value.toLowerCase().trim()
-//     let filterData = data.filter((value)=>{
+//     let filterData = data.filter(value =>{
 //         let id = value.id.toLowerCase()
 //         let symbol = value.symbol.toLowerCase()
 //         return (id.includes(searchedData) || symbol.includes(searchedData))
@@ -559,9 +560,10 @@ function searchFilter(data){
 //     display(filterData)
 // }
 
-// _______________________
 
-// sort by MKT Cap - (descending order)
+// // _______________________
+
+// // sort by MKT Cap - (descending order)
 
 // mktSort.addEventListener("click",()=>{
 // sortByMKT(dataArray)
@@ -579,9 +581,9 @@ function searchFilter(data){
 //     display(sortedData)
 // }
 
-// ____________________
+// // ____________________
 
-// sorted by percentage - (descending order)
+// // sorted by percentage - (descending order)
 
 
 // percentageSort.addEventListener("click",()=>{

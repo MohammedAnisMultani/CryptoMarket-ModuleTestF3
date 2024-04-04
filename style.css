@@ -47,11 +47,12 @@ td{
 }
 
 
-/* ______________________________ */
-
+.heading{
+    padding-left: 35px;
+}
 
 #searchBar{
-    width: 50%;
+    width: 60%;
     height: 30px;
     margin: 10px;
     background-color: rgb(35, 31, 31);
@@ -69,7 +70,7 @@ td{
     border: 1px solid gray;
 }
 .main{
-    width: 70%;
+    width: 65%;
     background-color: black;
     padding: 10px 0px;
     padding-bottom: 1px;
