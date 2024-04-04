@@ -1,0 +1,94 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.images{
+    width: 30px;
+    margin: 0px 10px;
+}
+
+
+.col1{
+    display: flex;
+    align-items: center;
+   
+
+}
+
+
+table{
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+}
+
+
+
+.red{
+    color: red;
+}
+.green{
+    color: rgb(49, 225, 13);
+}
+td{
+    border-bottom: 1px solid white;
+    width: 250px;
+    height: 50px;
+   
+}
+
+
+/* ______________________________ */
+
+
+#searchBar{
+    width: 50%;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(35, 31, 31);
+    border: 1px solid gray;
+    color: aliceblue;
+    padding: 0px 10px;
+}
+
+#submit, #mkt, #percentage{
+    width: 12%;
+    margin: 10px;
+    height: 35px;
+    color: aliceblue;
+    background-color: rgb(35, 31, 31);
+    border: 1px solid gray;
+}
+.main{
+    width: 70%;
+    background-color: black;
+    padding: 10px 0px;
+    padding-bottom: 1px;
+}
+
+
+/* _________________________________ */
+/* effects */
+#submit:hover, #mkt:hover, #percentage:hover{
+background-color: orangered;
+transform: scale(1.2);
+}
+
+tr:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#searchBar:hover{
+    background-color: white;
+    color: black;
+}
